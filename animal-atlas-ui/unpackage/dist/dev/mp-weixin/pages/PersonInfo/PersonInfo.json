@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "qf-image-cropper": "../../uni_modules/qf-image-cropper/components/qf-image-cropper/qf-image-cropper",
+    "my-loading": "../../components/MyLoading"
+  }
+}

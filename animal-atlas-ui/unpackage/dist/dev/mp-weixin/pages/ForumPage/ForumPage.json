@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "post-item": "../../components/PostItem"
+  }
+}

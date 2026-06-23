@@ -1,0 +1,1 @@
+<view class="my-loading"><van-toast wx:if="{{r0}}" id="van-toast" u-t="m" u-i="1d7138b9-0" bind:__l="__l" u-p="{{a}}"><view class="loading"><image src="/static/loading.gif"></image><view class="text">loading...</view></view></van-toast></view>

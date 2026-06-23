@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "AI识别",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "movable-swiper": "../../components/movable-swiper/movable-swiper"
+  }
+}

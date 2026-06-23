@@ -1,0 +1,21 @@
+
+.loading {
+	background-color: #e7dfdd;
+	border-radius: inherit;
+	overflow: hidden;
+}
+.my-loading view {
+	padding: 0;
+}
+.my-loading image {
+	display: block;
+	width: 280rpx;
+	height: 210rpx;
+}
+.my-loading .text {
+	background-color: #e7dfdd;
+	height: 70rpx;
+	width: 100%;
+	text-align: center;
+	color: #00b7d5;
+}

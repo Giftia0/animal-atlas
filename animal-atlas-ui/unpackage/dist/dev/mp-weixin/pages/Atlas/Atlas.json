@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "NCHU动物图鉴",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "my-loading": "../../components/MyLoading",
+    "show-card": "../../components/ShowCard"
+  }
+}

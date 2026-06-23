@@ -1,0 +1,14 @@
+
+.btn.data-v-cd20b12f {
+	margin: 0 auto;
+	width: 600rpx;
+	color: red;
+	height: 80rpx;
+	border-radius: 8px;
+	border: 1px solid red;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50rpx;
+}

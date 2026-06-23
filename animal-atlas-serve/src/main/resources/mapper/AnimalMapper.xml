@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.giftia.animalatlasserve.mapper.AnimalMapper">
+
+    <resultMap id="BaseResultMap" type="com.giftia.animalatlasserve.domain.Animal">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="place" column="place" jdbcType="VARCHAR"/>
+        <result property="img" column="img" jdbcType="VARCHAR"/>
+        <result property="nick" column="nick" jdbcType="VARCHAR"/>
+        <result property="birthday" column="birthday" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="introduction" column="introduction" jdbcType="VARCHAR"/>
+        <result property="statusInfo" column="status_info" jdbcType="VARCHAR"/>
+        <result property="species" column="species" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="isDel" column="is_del" jdbcType="INTEGER"/>
+        <result property="likeNum" column="like_num" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,sex,
+        place,img,nick,
+        birthday,status,introduction,
+        status_info,species,create_time,is_del,like_num
+    </sql>
+    <select id="getOneRandom" resultType="com.giftia.animalatlasserve.domain.Animal">
+        SELECT *
+        FROM animal
+        where is_del = 0
+        LIMIT #{random},1
+    </select>
+    <select id="count" resultType="java.lang.Integer">
+        select count(*)
+        from animal
+        where is_del = 0;
+    </select>
+    <select id="getRemains" resultType="com.giftia.animalatlasserve.domain.Animal">
+        select * from animal
+        where is_del = 0
+        
+        <foreach collection="list" item="item" open="and id not in(" close=")" separator=",">
+            #{item}
+        </foreach>
+        Limit #{num}
+    </select>
+</mapper>

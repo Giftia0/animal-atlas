@@ -1,0 +1,137 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.animal-list.data-v-bf264f6a {
+  width: 600rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  box-shadow: 0 0 30rpx 30rpx rgba(68, 68, 68, 0.4);
+  padding: 0 30rpx;
+  margin-bottom: 50rpx;
+}
+.animal-list .animal-item.data-v-bf264f6a {
+  height: 160rpx;
+  display: flex;
+  font-size: 36rpx;
+  font-weight: 900;
+  align-items: center;
+  border-bottom: 2rpx solid #e8e8e8;
+}
+.animal-list .animal-item .animal-img.data-v-bf264f6a {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+  border-radius: 10%;
+}
+.animal-list .animal-item .animal-odds.data-v-bf264f6a {
+  margin-left: auto;
+}
+.animal-identification.data-v-bf264f6a {
+  min-height: 94vh;
+  background-image: url("http://cdn.giftia.cn/background.jpg");
+}
+.body.data-v-bf264f6a {
+  font-size: 28rpx;
+  margin: 30rpx;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+.footer.data-v-bf264f6a {
+  color: #6c6c6c;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40rpx;
+  position: absolute;
+  bottom: 20rpx;
+  right: 0;
+}
+.header.data-v-bf264f6a {
+  display: flex;
+  font-size: 40rpx;
+  font-weight: 900;
+  justify-content: space-between;
+  border: 2rpx solid #e3e3e3;
+  padding: 20rpx;
+}
+.header .spices.data-v-bf264f6a {
+  margin-left: 20rpx;
+}
+.header .odds.data-v-bf264f6a {
+  margin-right: 10rpx;
+}
+.spices-box.data-v-bf264f6a {
+  margin-top: 60rpx;
+  transform: scale(0.95);
+}
+.animal-identification.data-v-bf264f6a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 75rpx;
+}
+.img-box.data-v-bf264f6a {
+  width: 600rpx;
+  height: 600rpx;
+  border: 20rpx solid #047ff2;
+  border-radius: 50rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+.add-icon.data-v-bf264f6a {
+  width: 400rpx;
+  height: 400rpx;
+}
+.img.data-v-bf264f6a {
+  width: 600rpx;
+  height: 600rpx;
+}
+.line.data-v-bf264f6a {
+  position: absolute;
+  top: 0;
+  height: 5rpx;
+  width: 610rpx;
+  box-shadow: 0px -18px 50px 10px #047ff2;
+  background-color: #047ff2;
+  animation-name: scan-bf264f6a;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes scan-bf264f6a {
+from {
+    transform: translateY(-100rpx);
+}
+to {
+    transform: translateY(730rpx);
+}
+}

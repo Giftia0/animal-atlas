@@ -1,0 +1,1 @@
+export const resourceURL = "http://cdn.giftia.cn"

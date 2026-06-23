@@ -1,0 +1,194 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Atlas/Atlas",
+			"style": {
+				"navigationBarTitleText": "NCHU动物图鉴",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/MyInfo/MyInfo",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LoginPage/LoginPage",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/AnimalDetail/AnimalDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ForumPage/ForumPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发现",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/SettingPage/SettingPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/UpdateAnimal/UpdateAnimal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/EditPost/EditPost",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发帖",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PostPage/PostPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/PersonInfo/PersonInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/AnimalIdentification/AnimalIdentification",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "AI识别",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/WebView/WebView",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "NCHU动物图鉴",
+		"navigationBarBackgroundColor": "#047ff2",
+		"backgroundColor": "#eee",
+		"usingComponents": {
+			"van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+			"van-area": "/wxcomponents/vant/area/index",
+			// "van-badge": "/wxcomponents/vant/badge/index",
+			// "van-badge-group": "/wxcomponents/vant/badge-group/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-card": "/wxcomponents/vant/card/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-checkbox": "/wxcomponents/vant/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+			"van-col": "/wxcomponents/vant/col/index",
+			"van-dialog": "/wxcomponents/vant/dialog/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-goods-action": "/wxcomponents/vant/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/vant/goods-action-button/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-notify": "/wxcomponents/vant/notify/index",
+			"van-panel": "/wxcomponents/vant/panel/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-progress": "/wxcomponents/vant/progress/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index",
+			"van-row": "/wxcomponents/vant/row/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-slider": "/wxcomponents/vant/slider/index",
+			"van-stepper": "/wxcomponents/vant/stepper/index",
+			"van-steps": "/wxcomponents/vant/steps/index",
+			"van-submit-bar": "/wxcomponents/vant/submit-bar/index",
+			"van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+			"van-switch": "/wxcomponents/vant/switch/index",
+			// "van-switch-cell": "/wxcomponents/vant/switch-cell/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-tabbar": "/wxcomponents/vant/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/vant/tabbar-item/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-toast": "/wxcomponents/vant/toast/index",
+			"van-transition": "/wxcomponents/vant/transition/index",
+			"van-tree-select": "/wxcomponents/vant/tree-select/index",
+			"van-datetime-picker": "/wxcomponents/vant/datetime-picker/index",
+			"van-rate": "/wxcomponents/vant/rate/index",
+			"van-collapse": "/wxcomponents/vant/collapse/index",
+			"van-collapse-item": "/wxcomponents/vant/collapse-item/index",
+			"van-picker": "/wxcomponents/vant/picker/index"
+		}
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "#000",
+		"selectedColor": "#047ff2",
+		"list": [{
+				"text": "图鉴",
+				"pagePath": "pages/Atlas/Atlas",
+				"iconPath": "static/icon/tabbar/atlas/atlas.png",
+				"selectedIconPath": "static/icon/tabbar/atlas/atlas-selected.png"
+			},
+			{
+				"text": "识别",
+				"pagePath": "pages/AnimalIdentification/AnimalIdentification",
+				"iconPath": "static/icon/tabbar/identification/identification.png",
+				"selectedIconPath": "static/icon/tabbar/identification/identification-selected.png"
+				
+			},
+			{
+				"text": "发现",
+				"pagePath": "pages/ForumPage/ForumPage",
+				"iconPath": "static/icon/tabbar/forum/forum.png",
+				"selectedIconPath": "static/icon/tabbar/forum/forum-selected.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/MyInfo/MyInfo",
+				"iconPath": "static/icon/tabbar/user/user.png",
+				"selectedIconPath": "static/icon/tabbar/user/user-selected.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

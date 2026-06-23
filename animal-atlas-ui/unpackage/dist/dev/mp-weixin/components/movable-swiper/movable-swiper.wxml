@@ -1,0 +1,1 @@
+<view class="mov-area-all" style="{{'height:' + b}}" bindtouchstart="{{c}}" bindtouchmove="{{d}}" bindtouchend="{{e}}"><view wx:for="{{a}}" wx:for-item="item" wx:key="f" class="{{['mov-view-list', item.d]}}" style="{{'left:' + item.e}}"><view class="{{['mov-area-con', item.c]}}"><slot name="{{item.a}}"></slot></view></view></view>
